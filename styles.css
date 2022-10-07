@@ -96,4 +96,79 @@ h4, p, q, small, nav, button, form {
 	font-family: 'Montserrat', sans-serif;
 }
 
+/* Content */
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 16px;
+}
+
+header p{
+	font-size: 18px;
+}
+
+q{
+	font-size: 14px;
+	font-style:italic;
+}
+
+form{
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.form-required{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-style:italic;
+}
+
+.required{
+	color: var(--purple);
+}
+
+::placeholder{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+#about{
+	background-color:var(--blue);
+}
+
+#plan{
+	background-color:var(--yellow);
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	justify-items:center;
+}
+
+#plan section{
+	background-color: var(--teal);
+	border-color:var(--white);
+	max-width:300px;
+	max-height:200px;
+	padding:2rem;
+	grid-column-start: span 4;
+}
+
+footer{
+	background-color:var(--light-gray);
+}
+
 
